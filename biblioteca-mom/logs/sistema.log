@@ -1,0 +1,42 @@
+2026-07-19 13:56:30,668 - INFO - Pika version 1.3.2 connecting to ('::1', 5672, 0, 0)
+2026-07-19 13:56:30,669 - INFO - Socket connected: <socket.socket fd=1088, family=23, type=1, proto=6, laddr=('::1', 53266, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-07-19 13:56:30,669 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B0A5473E00>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B0A5473E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2026-07-19 13:56:30,723 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B0A5473E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:30,727 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B0A5473E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:30,728 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B0A5473E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:30,728 - INFO - Created channel=1
+2026-07-19 13:56:48,701 - INFO - Pika version 1.3.2 connecting to ('::1', 5672, 0, 0)
+2026-07-19 13:56:48,702 - INFO - Socket connected: <socket.socket fd=1120, family=23, type=1, proto=6, laddr=('::1', 53273, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-07-19 13:56:48,703 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DE95853E00>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DE95853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2026-07-19 13:56:48,752 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DE95853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:48,752 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DE95853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:48,752 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DE95853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 13:56:48,752 - INFO - Created channel=1
+2026-07-19 13:57:12,030 - INFO - Consumidor 1 recebeu o livro 1
+2026-07-19 13:57:12,031 - INFO - Livro encontrado: Dom Casmurro
+2026-07-19 13:57:12,032 - INFO - Dom Casmurro já estava alugado.
+2026-07-19 13:57:13,626 - INFO - Consumidor 2 recebeu o livro 2
+2026-07-19 13:57:13,627 - INFO - Livro encontrado: Meu Pé de Laranja Lima
+2026-07-19 13:57:13,628 - INFO - Meu Pé de Laranja Lima já estava alugado.
+2026-07-19 13:57:14,323 - INFO - Consumidor 1 recebeu o livro 4
+2026-07-19 13:57:14,324 - INFO - Livro encontrado: O Hobbit
+2026-07-19 13:57:14,324 - INFO - O Hobbit já estava alugado.
+2026-07-19 13:58:58,084 - INFO - Consumidor 2 recebeu o livro 4
+2026-07-19 13:58:58,085 - INFO - Livro encontrado: O Hobbit
+2026-07-19 13:58:58,085 - INFO - O Hobbit já estava alugado.
+2026-07-19 13:58:59,292 - INFO - Consumidor 1 recebeu o livro 5
+2026-07-19 13:58:59,293 - INFO - Livro encontrado: Percy Jackson
+2026-07-19 13:58:59,294 - INFO - Percy Jackson já estava alugado.
+2026-07-19 13:59:10,979 - INFO - Consumidor 2 recebeu o livro 8
+2026-07-19 13:59:10,980 - INFO - Livro encontrado: O Pequeno Príncipe
+2026-07-19 13:59:10,981 - INFO - O Pequeno Príncipe já estava alugado.
+2026-07-19 14:05:02,926 - INFO - Pika version 1.3.2 connecting to ('::1', 5672, 0, 0)
+2026-07-19 14:05:02,926 - INFO - Socket connected: <socket.socket fd=1152, family=23, type=1, proto=6, laddr=('::1', 59825, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-07-19 14:05:02,927 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000021D2C853E00>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000021D2C853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2026-07-19 14:05:02,989 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000021D2C853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 14:05:02,989 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000021D2C853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 14:05:02,989 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000021D2C853E00> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2026-07-19 14:05:02,990 - INFO - Created channel=1
+2026-07-19 14:05:15,559 - INFO - Consumidor 2 recebeu o livro 6
+2026-07-19 14:05:15,560 - INFO - Livro encontrado: Rádio Silêncio
+2026-07-19 14:05:18,585 - INFO - Rádio Silêncio alugado com sucesso.
