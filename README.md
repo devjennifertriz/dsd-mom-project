@@ -1,109 +1,58 @@
-# Sistema de Aluguel de Livros utilizando RabbitMQ
+# Sistema de Aluguel de Livros MOM
 
 ## Descrição
 
-Este projeto demonstra a utilização de Middleware Orientado a Mensagens (MOM)
-utilizando o paradigma de Filas de Mensagens (Message Queue).
+Este projeto demonstra a utilização de Middleware Orientado a Mensagens (MOM) utilizando o paradigma de Filas de Mensagens (Message Queue). O sistema simula o aluguel de livros de uma biblioteca.
 
-O sistema simula o aluguel de livros de uma biblioteca.
+Quando um usuário solicita o aluguel de um livro, o Producer envia uma mensagem para uma fila do RabbitMQ.
 
-Quando um usuário solicita o aluguel de um livro, o Producer envia uma
-mensagem para uma fila do RabbitMQ.
+Dois consumidores ficam aguardando mensagens e apenas um deles processa cada pedido.
 
-Dois consumidores ficam aguardando mensagens e apenas um deles processa cada
-pedido.
+## 🔧 Setup e Instalação
 
-## Tecnologias
-
-- Python 3
-- RabbitMQ
-- Docker
-- SQLite
-- Pika
-
-## Estrutura
-
-```
-biblioteca-mom/
-database/
-producer/
-consumers/
-logs/
-requirements.txt
-docker-compose.yml
-```
-
-## Fluxo
-
-```
-Producer
-
-↓
-
-RabbitMQ
-
-↓
-
-Fila aluguel_livros
-
-↓
-
-Consumidor 1
-
-OU
-
-Consumidor 2
-
-↓
-
-Banco SQLite
-```
-
-## Como executar
-
-### Instalar dependências
+### 1. Instalar dependências
 
 ```
 pip install -r requirements.txt
 ```
 
-### Subir RabbitMQ
+### 2. Subir RabbitMQ
 
 ```
 docker compose up -d
 ```
 
-### Criar banco
+### 3. Criar banco
 
 ```
 python database/criar_banco.py
 ```
 
-### Popular banco
+### 4. Popular banco
 
 ```
 python database/popular_banco.py
 ```
 
-### Executar consumidor 1
+### 5. Executar consumidor 1
 
 ```
 python -m consumers.consumer1
 ```
 
-### Executar consumidor 2
+### 6. Executar consumidor 2
 
 ```
 python -m consumers.consumer2
 ```
 
-### Executar producer
+### 7. Executar producer
 
 ```
 python -m producer.producer
 ```
 
-## Demonstração
+## Saída Esperada
 
 1. Inicie os dois consumidores.
 2. Execute o Producer.
